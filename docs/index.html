@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explysm - Game & Web Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="tab-container">
+        <div class="tab-bar">
+            <button class="tab-button active" data-tab="about">About</button>
+            <button class="tab-button" data-tab="discord">Discord</button>
+            <button class="tab-button" data-tab="github">GitHub</button>
+            <button class="tab-button" data-tab="gifs">Favorite GIFs</button>
+            <button class="tab-button" data-tab="contact">Contact</button>
+        </div>
+
+        <div class="tab-content">
+            <section id="about" class="tab-pane active">
+                <h2>About Me</h2>
+                <p id="typing-line-1"></p>
+                <p id="typing-line-2"></p>
+            </section>
+
+            <section id="discord" class="tab-pane">
+                <h2>Discord</h2>
+                <div id="discord-profile">
+                    <!-- Discord profile will be loaded here by JavaScript -->
+                    <p>Loading Discord profile...</p>
+                </div>
+                <p class="small-text">We use <a href="https://github.com/AdvanceFTeam/PFP-API?tab=readme-ov-file" target="_blank">PFP-API</a> to provide live information.</p>
+            </section>
+
+            <section id="github" class="tab-pane">
+                <h2>GitHub</h2>
+                <div id="github-profile">
+                    <!-- GitHub profile will be loaded here by JavaScript -->
+                    <p>Loading GitHub profile...</p>
+                </div>
+                <div id="github-repos">
+                    <!-- GitHub repos will be loaded here by JavaScript -->
+                    <p>Loading GitHub repositories...</p>
+                </div>
+            </section>
+
+            <section id="gifs" class="tab-pane">
+                <h2>Favorite GIFs</h2>
+                <div id="gif-container">
+                    <!-- GIFs will be embedded here -->
+                    <p>Loading GIFs...</p>
+                </div>
+            </section>
+
+            <section id="contact" class="tab-pane">
+                <h2>Contact Me</h2>
+                <div class="contact-links">
+                    <p>Email: <a href="mailto:explysm@yike.games">explysm@yike.games</a></p>
+                    <p>Twitter: <a href="https://twitter.com/explysm" target="_blank">@explysm</a></p>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+</body>
+</html>
